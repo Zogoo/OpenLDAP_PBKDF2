@@ -1,0 +1,30 @@
+GIT
+  remote: https://github.com/emerose/pbkdf2-ruby
+  revision: f9a337e3559de7e61792f2c761a91ea57d53e095
+  specs:
+    pbkdf2 (0.2.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.1)
+    excon (0.55.0)
+    gibberish (2.1.0)
+    method_source (0.8.2)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  excon
+  gibberish
+  pbkdf2!
+  pry
+
+BUNDLED WITH
+   1.13.7
