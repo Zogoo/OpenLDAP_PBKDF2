@@ -1,12 +1,8 @@
 #!/usr/bin/env ruby
 
-require 'json'
 require 'openssl'
 require 'base64'
-require 'gibberish'
-require 'excon'
 require 'securerandom'
-require 'optparse'
 require 'byebug'
 
 ITERATION = 60_000
